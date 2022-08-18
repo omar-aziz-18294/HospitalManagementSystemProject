@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">HospitalManagementProject</string>
+    <string name="welcome">Welcome</string>
+    <string-array name="timeframes">
+        <item>Select time you are available</item>
+        <item>7-9 AM</item>
+        <item>9-11 AM</item>
+        <item>11-1 PM</item>
+        <item>2-4 PM</item>
+        <item>4-6 PM</item>
+    </string-array>
+
+    <string-array name="Departments">
+        <item>Select Department</item>
+        <item>Surgery</item>
+        <item>Dermatology</item>
+        <item>Cardiologists</item>
+        <item>Neurologists</item>
+        <item>Psychiatrists</item>
+        <item>Orthopedic</item>
+        <item>Pediatricians</item>
+    </string-array>
+
+    <string-array name="Specialization">
+        <item>Select Department</item>
+        <item>Surgery</item>
+        <item>General</item>
+        <item>Dentist</item>
+
+    </string-array>
+</resources>
