@@ -12,6 +12,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.text.TextUtils;
+import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -93,8 +94,17 @@ public class PatientRegistrationActivity extends AppCompatActivity {
                     loginEmail.setError("Email is Required");
                     return;
                 }
+                if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+                    loginEmail.setError("Enter a valid Email Address");
+                    loginEmail.requestFocus();
+                    return;
+                }
                 if (TextUtils.isEmpty(password)) {
                     loginPassword.setError("Password is Required");
+                    return;
+                }
+                if (password.length()< 6){
+                    loginPassword.setError("Minimum length of a password should be 6 ");
                     return;
                 }
                 if (TextUtils.isEmpty(fullName)) {
@@ -103,6 +113,10 @@ public class PatientRegistrationActivity extends AppCompatActivity {
                 }
                 if (TextUtils.isEmpty(NIDNumber)) {
                     registrationNIDNumber.setError("NID is Required");
+                    return;
+                }
+                if (NIDNumber.length()< 10){
+                    registrationNIDNumber.setError("Enter NID Number of 10 digits");
                     return;
                 }
                 if (TextUtils.isEmpty(phoneNumber)) {
