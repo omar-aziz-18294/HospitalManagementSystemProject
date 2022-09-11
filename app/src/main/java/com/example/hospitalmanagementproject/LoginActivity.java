@@ -24,6 +24,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     private TextInputEditText loginEmail;
     private TextInputEditText loginPassword;
     private View loginPageQuestions;
+    private View admin;
 
     ProgressBar progressbar;
     private FirebaseAuth mAuth;
@@ -38,10 +39,12 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         loginPassword = findViewById(R.id.loginPassword);
         loginButton = findViewById(R.id.loginButton);
         loginPageQuestions = findViewById(R.id.loginPageQuestions);
+        admin = findViewById(R.id.admin);
         progressbar = findViewById(R.id.progressBar);
 
         loginButton.setOnClickListener(this);
         loginPageQuestions.setOnClickListener(this);
+        admin.setOnClickListener(this);
 
 
     }
@@ -55,6 +58,11 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
             case R.id.loginPageQuestions:
                 Intent intent = new Intent(getApplicationContext(), RegistrationActivity.class);
+                startActivity(intent);
+                break;
+
+            case R.id.admin:
+                intent = new Intent(getApplicationContext(), adminLoginActivity.class);
                 startActivity(intent);
                 break;
         }

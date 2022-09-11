@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Omar Aziz/AndroidStudioProjects/HospitalManagementProject/app/src/main/res/drawable/buttons_background.xml" value="0.1225" />
+        <entry key="..\:/Users/Omar Aziz/AndroidStudioProjects/HospitalManagementProject/app/src/main/res/layout/activity_admin_login.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Omar Aziz/AndroidStudioProjects/HospitalManagementProject/app/src/main/res/layout/activity_administrator.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/Omar Aziz/AndroidStudioProjects/HospitalManagementProject/app/src/main/res/layout/activity_appointment.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/Omar Aziz/AndroidStudioProjects/HospitalManagementProject/app/src/main/res/layout/activity_doctor_registration.xml" value="0.2203125" />
         <entry key="..\:/Users/Omar Aziz/AndroidStudioProjects/HospitalManagementProject/app/src/main/res/layout/activity_login.xml" value="0.25" />

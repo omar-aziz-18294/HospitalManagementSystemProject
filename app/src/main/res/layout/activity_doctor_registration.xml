@@ -128,17 +128,7 @@
             android:layout_marginBottom="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
-        <Spinner
-            android:id="@+id/SpecializationSpinner"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:popupBackground="#fff"
-            android:entries="@array/Specialization"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+
         <!--Registration Name -->
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -149,12 +139,13 @@
             app:hintTextAppearance="@color/design_default_color_primary">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/registrationFullName"
-                android:hint="Enter Your Full Name"
-                android:drawableStart="@drawable/ic_profile"
+                android:id="@+id/loginEmail"
+                android:hint="Enter Your Email"
+                android:drawableStart="@drawable/ic_mail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:drawablePadding="10dp"
+                android:inputType="textEmailAddress"
                 android:textColor="#000"
                 android:textSize="18sp"
                 android:textColorHint="#000"/>
