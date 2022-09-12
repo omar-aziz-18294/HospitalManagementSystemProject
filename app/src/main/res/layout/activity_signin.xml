@@ -35,18 +35,6 @@
             android:gravity="center"
             android:textColor="#000"/>
 
-        <!--Appointments button-->
-        <Button
-            android:id="@+id/appointments"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Appointments"
-            android:textAllCaps="false"
-            android:layout_margin="20dp"
-            android:textSize="20sp"
-            android:layout_gravity="center"
-            android:textColor="#fff"
-            android:background="@drawable/buttons_background"/>
 
         <!--New Appointment button-->
         <Button
@@ -60,18 +48,7 @@
             android:layout_gravity="center"
             android:textColor="#fff"
             android:background="@drawable/buttons_background"/>
-        <!--cancel Appointment button-->
-        <Button
-            android:id="@+id/cancelAppointment"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Cancel Appointment"
-            android:textAllCaps="false"
-            android:layout_margin="20dp"
-            android:textSize="20sp"
-            android:layout_gravity="center"
-            android:textColor="#fff"
-            android:background="@drawable/buttons_background"/>
+
 
         <!--logout button-->
         <Button

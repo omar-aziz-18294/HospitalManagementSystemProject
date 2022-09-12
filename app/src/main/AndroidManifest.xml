@@ -16,6 +16,21 @@
         android:theme="@style/Theme.HospitalManagementProject"
         tools:targetApi="31">
         <activity
+            android:name=".viewUser"
+            android:exported="false" />
+        <activity
+            android:name=".deleteUsers"
+            android:exported="false" />
+        <activity
+            android:name=".addUsers"
+            android:exported="false" />
+        <activity
+            android:name=".MyCustomListAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".Book"
+            android:exported="false" />
+        <activity
             android:name=".AdministratorActivity"
             android:exported="false" />
         <activity
